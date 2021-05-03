@@ -1,0 +1,638 @@
+/* google-fonts Bebas Neue + Lato */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@100;300;400;700;900&display=swap');
+ /* Global Css */
+
+body{
+
+    font-family: 'Lato', sans-serif;
+}
+button {
+    font-family: 'Bebas Neue', cursive;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+
+/* ==================== Header Section  ====================*/
+
+.header-section {
+    background: url(../img/banner.png) no-repeat top center;
+    background-size: cover;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 30px;
+    width: auto;
+    height: 30px;
+    line-height: 14px;
+    margin: 5px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    background: #ffc61a;
+    color: #000;
+}
+.navbar-expand-lg .navbar-nav .nav-link:focus {
+    background: #ffc61a;
+    color: #000;
+}
+.fa-bars {
+    color: #908f8f;
+}
+.navbar-light .navbar-toggler {border-color: #5d5d5d;}
+
+
+/*  Banner Section  */
+
+.banner-section h3 {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 900;
+    color: #ffc61a;
+    margin: 0;
+    margin-top: 25px;
+}
+.banner-section h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #fff;
+}
+.banner-section h2 {
+    font-size: 20px;
+    letter-spacing: 11px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+
+/* ==================== Booking Section ====================*/
+.booking-section {
+    background: #ffc61a;
+    padding: 171px 0 75px;
+    margin-top: -130px;
+}
+.booking-section h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 47px;
+    color: #101010;
+}
+.booking-section h3 {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #101010;
+}
+.booking-section p{
+    color: #101010;
+}
+button.booking-btn {
+    padding: 5px 30px;
+    border: none;
+    font-size: 20px;
+    background: #000000;
+    color: #fff;
+    border-radius: 5px;
+}
+.booking-area {
+    background: #fff;
+    padding: 0px 12px;
+}
+.booking-area-header {
+    background: #000;
+}
+.booking-area-header h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px 0;
+}
+input.form-control {
+    border: none;
+    border-bottom: 2px solid #e4e4e4;
+    border-radius: 0;
+    padding: 15px;
+}
+.form-control:focus {
+    border-color: #ffc61a;
+    box-shadow: none;
+}
+.booking-area-header span {
+    color: #ffc61a;
+}
+input.booking-submit-btn {
+    background: #131313;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+
+/* ==================== card Section  ====================*/
+.card-section {
+    padding: 50px 0;
+}
+.card-section h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 35px;
+}
+.card-section h3 {
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 35px;
+    color: #ffc61a;
+}
+.card-body {
+    position: relative;
+    background: #f5f4f2;
+    padding: 20px;
+    margin: 120px 10px 20px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.card-img {
+    margin-top: -30%;
+}
+.card-body h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 900;
+    color: #000000;
+    padding: 10px 0;
+}
+.card-body p {
+    color: #101010;
+}
+.card-body h2 {
+    font-size: 40px;
+    padding: 10px 0;
+    color: #ffc61a;
+    transition: .3s ease-in-out;
+}
+.card-body .card-button {
+    background: #ffc61a;
+    border: none;
+    padding: 5px 40px;
+    font-size: 25px;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+}
+.aword {
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    border-bottom: 75px solid #1b1b1b;
+    border-left: 75px solid transparent;
+}
+.card-body .fa {
+    color: #ffc61a;
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+    z-index: 1;
+    font-size: 25px;
+}
+.card-body:hover {
+    background: #ffc61a;
+}
+.card-body:hover.card-body h2 {
+    color: #fff;
+}
+.card-body:hover .card-button {
+    background: #1b1b1b;
+    color: #fff;
+}
+
+
+/* ==================== features-section  ====================*/
+.features-section {
+    background: url(../img/features-bg.png) no-repeat top center;
+    background-size: cover;
+    padding: 50px 0;
+}
+.features-section h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    color: #ffc61a;
+}
+.features-section h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+.features-item {
+    padding: 35px;
+}
+.features-item h4 {
+    background: #ffc61a;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    line-height: 59px;
+    border-radius: 50%;
+    font-size: 30px;
+    margin: 0 auto;
+}
+.features-item h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffc61a;
+}
+.features-item p {
+    color: #c5c4c5;
+}
+button.features-btn {
+    background: #ffc61a;
+    padding: 5px 40px;
+    border: none;
+    font-size: 25px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* ==================== features-section  ====================*/
+
+.Download-Section {
+    padding: 75px 0 0;
+}
+.Download-Section h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 35px;
+    margin: 0;
+    color: #ffc61a;
+}
+.Download-Section h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 45px;
+}
+.Download-Section h3 {
+    font-weight: 800;
+}
+.Download-Section p {
+    padding: 15px 0 70px;
+    color: #4c4c4c
+}
+.Download-Section ul li {
+    display: inline;
+    padding-right: 30px;
+}
+
+
+/* ==================== Testimonials-section  ====================*/
+
+.testimonials-section {
+    background: url(../img/testimonials.png) no-repeat top center;
+    background-size: cover;
+    padding: 50px 0;
+}
+.testimonials-section h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 0;
+    color: #ffc61a;
+    font-size: 30px;
+}
+.testimonials-section h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fff;
+}
+
+.testimonials-item {
+    background: #040707;
+    padding: 25px 40px;
+    border-radius: 40px;
+    margin: 0px 15px;
+}
+.testimonials-item p {
+    color: #fff;
+}
+.testimonials-item h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #ffc61a;
+}
+.testimonials-item h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+/* ==================== Contacts-Section ====================*/
+
+.contacts-section {
+    background: #ffc61a;
+    padding: 50px 0;
+}
+.contacts-section h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 900;
+}
+.contacts-section h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 50px;
+    margin: 0;
+}
+
+
+/* ==================== footer Section  ====================*/
+
+.footer-area {
+    background: url(../img/footer-bg.png) no-repeat top center;
+    background-size: cover;
+    padding: 50px 0 0;
+}
+.footer-About-item {
+    padding: 0px 35px;
+}
+.footer-About-item h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 35px;
+    color: #fff;
+}
+.footer-item-hr {
+    background: #ffc61a;
+    width: 100%;
+    height: 5px;
+    margin: 20px 0;
+}
+.footer-About-item p {
+    color: #fff;
+}
+.footer-About-item ul li {
+    display: inline;
+}
+.footer-About-item .fa {
+    margin-right: 25px;
+    font-size: 20px;
+    color: #ffc61a;
+}
+.footer-About-item ul {
+    margin: 40px 0;
+}
+.footer-download-item {
+    padding: 0px 35px;
+}
+.footer-download-item h1 {
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.footer-download-item p {
+    margin-bottom: 35px;
+    color: #fff;
+}
+.footer-download-item h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #ffc61a;
+}
+
+.footer-download-item .fa {
+    line-height: 38px;
+    font-size: 24px;
+    color: #fff;
+}
+.footer-contact-item h1 {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+.footer-contact-item {
+    padding: 0px 35px;
+}
+.footer-contact-item h6 {
+    margin-right: 50px;
+    line-height: 20px;
+    color: #fff;
+}
+.footer-contact-item .fa {
+    color: #fff;
+}
+.footer-contact-item .fa-envelope {
+    font-size: 14px;
+}
+.footer-contact-item .fa-mobile {
+    font-size: 25px;
+}
+.footer-contact-item .fa-mouse-pointer {
+    font-size: 19px;
+}
+.copy-right {
+    background: #000;
+    padding: 15px 0;
+}
+.copy-right h3 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+
+/* media Quary For mobile */
+@media (min-width:320px) and (max-width:576px){
+    .navbar {margin-top: 13px;}
+    .navbar .logo{ max-width: 84%;}
+    .navbar-expand-lg .navbar-nav .nav-link{text-align: center;}
+    .banner-section h1{font-size: 34px;}
+    .banner-section h2{font-size: 12px;letter-spacing: 4px;}
+    .banner-section h3{font-size: 27px; margin-top: 63px;}
+    .card-section{padding: 30px 0;}
+    .booking-section {margin-top: -64px; padding: 112px 0 75px;}
+    .booking-section h3{text-align: center;}
+    .booking-section h2{font-size: 21px;text-align: center;}
+    .booking-section p{text-align: center; line-height: 29px; font-size: 15px; padding: 9px;}
+    button.booking-btn{display: block;margin: 20px auto;}
+    input.form-control {padding: 6px;}
+    .booking-area-header h1 {padding: 10px 0;text-align: center;}
+    .play-button{max-width: 49%;}
+    .mobile-image{max-width:60%;}
+    .card-body{margin: 120px 10px 70px;}
+    .card-section h2{font-size: 40px;margin-bottom: 20px;}
+    .card-section h3{font-size: 40px;}
+    .features-item h3{text-align: center;}
+    .features-item p{text-align: center;}
+    .features-item h4{margin-bottom: 10px;}
+    .features-item { padding: 0 35px 0;}
+    .feature-left{margin-top: 49px;}
+    .feature-right{margin-top: 49px;}
+    button.features-btn {margin: 42px auto;}
+    .Download-Section { padding: 50px 0 0;}
+    .Download-Section h1{font-size: 30px;}
+    .Download-Section h2{font-size: 40px;}
+    .Download-Section h3{text-align: center;}
+    .Download-Section p {padding: 10px 0 40px;text-align: center;}
+    .Download-Section ul{text-align: center;}
+    .Download-Section ul li {display: inline;padding: 0;}
+    .owl-carousel .owl-item img {width: auto;}
+    .testimonials-item h3{margin-left: 90px;margin-top:-65px; font-size: 18px;}
+    .testimonials-item h4{margin-left: 90px; font-size: 13px;}
+    .testimonials-item .content{margin-top: 15px;}
+    .contacts-section h1{font-size: 18px;}
+    .contacts-section h2{font-size: 35px;}
+    .footer-About-item h1{font-size: 30px;}
+    .footer-About-item ul{margin: 25px 0;}
+    .footer-About-item .fa{margin: 15px;font-size: 30px;}
+    .footer-download-item h1{text-align: left;font-size: 30px;}
+    .footer-download-item p{text-align: left;}
+    .footer-contact-item h1{text-align: left;font-size: 30px;margin-top: 10px;}
+    .copy-right h3 {font-size: 13px; letter-spacing: 1px;}
+}
+
+
+/* media Quary For tab */
+@media (min-width:577px) and (max-width:768px){
+    .navbar {margin-top: 13px;}
+    .navbar .logo{ max-width: 84%;}
+    .navbar-expand-lg .navbar-nav .nav-link{text-align: center;}
+    .banner-section h1{font-size: 40px;}
+    .banner-section h2{font-size: 18px;letter-spacing: 9px;}
+    .banner-section h3{font-size: 30px;}
+    .card-section{padding: 30px 0;}
+    .booking-section h3{text-align: center;font-size: 40px;}
+    .booking-section h2{font-size: 25px;text-align: center;}
+    .booking-section p{text-align: justify;line-height: 30px;}
+    button.booking-btn{display: block;margin: 20px auto;}
+    .booking-area-header h1 {padding: 15px 0;font-size: 35px; text-align: center;margin: 0;}
+    .mobile-image{max-width:60%;}
+    .card-body{margin: 120px 10px 70px;}
+    .card-section h2{font-size: 40px;margin-bottom: 20px;}
+    .card-section h3{font-size: 40px;}
+    .features-item h3{text-align: center;}
+    .features-item p{text-align: center;}
+    .features-item h4{margin-bottom: 10px;}
+    .features-item { padding: 0 35px 0;}
+    .feature-left{margin-top: 49px;}
+    .feature-right{margin-top: 49px;}
+    button.features-btn {margin: 42px auto;}
+    .Download-Section { padding: 50px 0 0;}
+    .Download-Section h1{font-size: 30px;}
+    .Download-Section h2{font-size: 40px;}
+    .Download-Section h3{text-align: center;}
+    .Download-Section p {padding: 10px 0 40px;text-align: center;}
+    .Download-Section ul{text-align: center;}
+    .Download-Section ul li {display: inline;padding: 0;}
+    .owl-carousel .owl-item img {width: auto;}
+    .testimonials-item h3{margin-left: 90px;margin-top:-65px;}
+    .testimonials-item h4{margin-left: 90px;}
+    .contacts-section h1{font-size: 20px;}
+    .contacts-section h2{font-size: 35px;}
+    .footer-About-item h1{text-align: left;font-size: 30px;}
+    .footer-About-item p{text-align: left;}
+    .footer-About-item ul{margin: 25px 0;}
+    .footer-About-item ul{text-align: left;}
+    .footer-About-item .fa{margin: 15px;font-size: 30px;}
+    .footer-download-item h1{text-align: left;font-size: 30px;}
+    .footer-download-item p{text-align: left;}
+    .footer-contact-item h1{text-align: left;font-size: 30px;margin-top: 10px;}
+}
+
+/* media Quary For notebook*/
+@media (min-width:769px) and (max-width:992px){
+    .navbar-expand-lg .navbar-nav .nav-link{text-align: center;}
+    .banner-section h1{font-size: 65px;}
+    .banner-section h2{font-size: 20px;letter-spacing: 15px;}
+    .banner-section h3{font-size: 45px;}
+    .card-section{padding: 30px 0;}
+    .booking-section h3{text-align: center;font-size: 50px;}
+    .booking-section h2{font-size: 25px;text-align: center;}
+    .booking-section p{text-align: justify;line-height: 30px;font-size: 18px;}
+    .booking-section .offset-md-2{margin: 0;width: 50%;}
+    button.booking-btn{display: block;margin: 20px auto;}
+    .booking-area-header h1 {padding: 15px 0;font-size: 35px; text-align: center;margin: 0;}
+    .card-body{margin: 50px 0px 30px;}
+    .card-body h1{font-size: 20px;}
+    .card-section h2{font-size: 40px;margin-bottom: 20px;padding: 0;}
+    .card-body .card-button{margin-bottom: 40px;} 
+    .card-section h3{font-size: 40px;}
+    .features-item h3{text-align: left;font-size: 20px;}
+    .features-item p{text-align: left;}
+    .features-item h4{margin-bottom: 10px;}
+    .features-item { padding: 0 35px 0;}
+    .feature-left{margin-top: 49px;}
+    .feature-right{margin-top: 49px;}
+    button.features-btn {margin: 42px auto;}
+    .Download-Section { padding: 50px 0 0;}
+    .Download-Section{padding: 50px 0 0;}
+    .Download-Section h1{font-size: 30px;}
+    .Download-Section h2{font-size: 40px;}
+    .Download-Section h3{text-align: center;}
+    .Download-Section p {padding: 10px 0 40px;text-align: center;}
+    .Download-Section ul{text-align: center;}
+    .Download-Section ul li {width: 48%;float: left;margin: 3px;}
+    .Download-Section .mobile-image {max-width: 90%;}
+    .owl-carousel .owl-item img {width: auto;}
+    .testimonials-item {padding: 50px 40px;margin: 0px 50px;}
+    .testimonials-item h3{margin-left: -40px;margin-top:0;}
+    .testimonials-item h4{margin-left: -40px;}
+    .contacts-section h1{font-size: 20px;}
+    .contacts-section h2{font-size: 35px;}
+    .footer-About-item h1{text-align: left;font-size: 21px;}
+    .footer-About-item p{text-align: left;}
+    .footer-About-item ul{margin: 25px 0;}
+    .footer-About-item ul{text-align: left;}
+    .footer-About-item .fa{margin: 15px;font-size: 0px;}
+    .footer-download-item h1{text-align: left;font-size: 21px;}
+    .footer-download-item p{text-align: left;}
+    .footer-download-item h3 { font-size: 16px; margin-bottom: 12px; margin-top: 13px;}
+    .footer-contact-item h1{text-align: left;font-size: 21px;margin-top: 0;}
+    .footer-contact-item h6 {margin-right: 0px;}
+
+}
+
+
+/* media Quary For larger Device*/
+@media (min-width:993px) and (max-width:1200px){
+    .play-button{max-width: 43%;}
+    .mobile-image{max-width:90%;}
+}
+
+/* media Quary For Extra larger Device*/
+@media (min-width:1201px) and (max-width:1400px){
+}
+
