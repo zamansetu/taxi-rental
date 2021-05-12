@@ -472,7 +472,9 @@ button.features-btn {
     letter-spacing: 2px;
     color: #fff;
 }
-
+.os-text .fa{
+    display: none;
+}
 
 /* media Quary For mobile */
 @media (min-width:320px) and (max-width:576px){
@@ -488,7 +490,7 @@ button.features-btn {
     .booking-section h2{font-size: 21px;text-align: center;}
     .booking-section p{text-align: center; line-height: 29px; font-size: 15px; padding: 9px;}
     button.booking-btn{display: block;margin: 20px auto;}
-    input.form-control {padding: 6px;}
+    input.form-control {padding: 6px; text-align: center}
     .booking-area-header h1 {padding: 10px 0;text-align: center;}
     .play-button{max-width: 49%;}
     .mobile-image{max-width:60%;}
@@ -515,13 +517,19 @@ button.features-btn {
     .testimonials-item .content{margin-top: 15px;}
     .contacts-section h1{font-size: 18px;}
     .contacts-section h2{font-size: 35px;}
+    .footer-area{text-align: center}
+    .footer-About-item{margin: 0 auto;}
     .footer-About-item h1{font-size: 30px;}
     .footer-About-item ul{margin: 25px 0;}
     .footer-About-item .fa{margin: 15px;font-size: 30px;}
-    .footer-download-item h1{text-align: left;font-size: 30px;}
-    .footer-download-item p{text-align: left;}
-    .footer-contact-item h1{text-align: left;font-size: 30px;margin-top: 10px;}
+    .footer-download-item h1{font-size: 30px;}
+    .footer-download-item h3 {margin-bottom: 3px;}
+    .footer-contact-item h6 {margin-right: 0;}
+    .pc-view{display: none;}
+    .footer-contact-item h1{text-align: center;font-size: 30px;margin-top: 25px;}
     .copy-right h3 {font-size: 13px; letter-spacing: 1px;}
+    .os-text .fa{display: block;}
+    .os-icon{display: none;}
 }
 
 
@@ -562,14 +570,18 @@ button.features-btn {
     .testimonials-item h4{margin-left: 90px;}
     .contacts-section h1{font-size: 20px;}
     .contacts-section h2{font-size: 35px;}
-    .footer-About-item h1{text-align: left;font-size: 30px;}
-    .footer-About-item p{text-align: left;}
+    footer{text-align: center;}
+    .footer-About-item h1{text-align: center;font-size: 30px;}
+    .footer-About-item p{text-align: center;}
     .footer-About-item ul{margin: 25px 0;}
-    .footer-About-item ul{text-align: left;}
+    .footer-About-item ul{text-align: center;}
     .footer-About-item .fa{margin: 15px;font-size: 30px;}
-    .footer-download-item h1{text-align: left;font-size: 30px;}
+    .os-text .fa{display: block;}
+    .os-icon{display: none;}
+    .footer-download-item h1{text-align: center;font-size: 30px;}
     .footer-download-item p{text-align: left;}
-    .footer-contact-item h1{text-align: left;font-size: 30px;margin-top: 10px;}
+    .footer-contact-item h1{text-align: center;font-size: 30px;margin-top: 10px;}
+    .footer-contact-item h6 {margin-right: 0;}
 }
 
 /* media Quary For notebook*/
